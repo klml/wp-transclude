@@ -1,4 +1,5 @@
-=== WP-Transclude ===
+== WP-Transclude ==
+
 Contributors: mg klml
 Donate link: 
 Tags: include
@@ -11,6 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Description ==
+
 [Transcludes](http://en.wikipedia.org/wiki/Transclusion) only the content of WordPress posts or pages within another page or post. Add the <code>[page title="myniceslug"]</code> with the wished [Slug](http://codex.wordpress.org/Glossary#Slug) to your post or page. Inspired by [mediawiki.org Help:Templates](http://www.mediawiki.org/wiki/Help:Template).
 Left off all surrounding and additional classes and markup.
 
