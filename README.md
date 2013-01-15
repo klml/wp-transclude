@@ -1,12 +1,32 @@
-## WP-Transclude
+=== WP-Transclude ===
+Contributors: mg klml
+Donate link: 
+Tags: include
+Requires at least: 3.3
+Tested up to: 3.5
+Stable tag: 
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-[Transcludes](http://en.wikipedia.org/wiki/Transclusion) only the content of WordPress posts or pages within another page or post. Add <code>[page title="myniceslug"]</code> to your post or page. Inspired by [mediawiki.org Help:Templates](http://www.mediawiki.org/wiki/Help:Template)
 
+
+== Description ==
+[Transcludes](http://en.wikipedia.org/wiki/Transclusion) only the content of WordPress posts or pages within another page or post. Add the <code>[page title="myniceslug"]</code> with the wished [Slug](http://codex.wordpress.org/Glossary#Slug) to your post or page. Inspired by [mediawiki.org Help:Templates](http://www.mediawiki.org/wiki/Help:Template).
 Left off all surrounding and additional classes and markup.
 
-### Parameter
-You can handle over simple parameter.
+This plugin differs from [WP Advanced Include](http://wordpress.org/extend/plugins/wp-advanced-include/) in:
 
+* slugs instead of postids
+* no text limit (might do that sometimes)
+* but free parameters
+
+
+=== Usage ===
+
+With <code>[page title="myniceslug"]</code> you get all the content from this page or post into the position of this [shortcode](http://codex.wordpress.org/Shortcode).
+
+
+Additionally you can handle over simple parameter.
 Just write 
 
 <code>
@@ -26,3 +46,21 @@ You will get
 65% of people believe in ghosts.
 This Article needs a ciation: this is a rumor.
 </code>
+
+All code on [github.com wp-transclude](https://github.com/klml/wp-transclude)
+
+== Installation ==
+
+1. Upload `wp-transclude/wp-transclude.php` to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+
+or auto install in Admin plugin menue
+
+== Frequently asked questions ==
+
+== Changelog ==
+= 0.9 =
+* init
+
+
+== Upgrade notice ==
