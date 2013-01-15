@@ -2,7 +2,7 @@
 
 Contributors: mg klml
 Donate link: 
-Tags: include
+Tags: include transclude
 Requires at least: 3.3
 Tested up to: 3.5
 Stable tag: 
