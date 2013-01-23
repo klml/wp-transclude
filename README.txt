@@ -22,11 +22,11 @@ This plugin differs from [WP Advanced Include](http://wordpress.org/extend/plugi
 * no text limit (might do that sometimes)
 * but free parameters
 
+You cant cascade pages into pages. Calling an page or post with an transclude to its self, you will only get the code (<code>[page title="myniceslug"]</code>) without an function.
 
 === Usage ===
 
 With <code>[page title="myniceslug"]</code> you get all the content from this page or post into the position of this [shortcode](http://codex.wordpress.org/Shortcode).
-
 
 Additionally you can handle over simple parameter.
 Just write 
